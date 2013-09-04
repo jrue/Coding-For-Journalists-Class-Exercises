@@ -27,7 +27,7 @@
 					.appendTo(container);
 			} else {
 				$('<img />')
-					.attr('src', 'http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/noun_project_17363.svg')
+					.attr('src', 'http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/happiness_male.svg')
 					.attr('alt', 'male icon')
 					.attr('width', '100')
 					.attr('height', '100')

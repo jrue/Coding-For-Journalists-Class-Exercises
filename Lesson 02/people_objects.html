@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating People with Arrays</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		
+		/*
+		 * Create a variable called "person1"
+		 * assign an OBJECT with several key/value properties.
+		 * The properties should be: 
+		 *  -- "name" which is a string
+		 *  -- "age" which is a number
+		 *  -- "location" which is a string
+		 *  -- "male" or "female" which is a boolean
+		 *
+		 *  Then, you can create a person2 or person3 variable in the same fashion
+		 */
+
+
+
+
+
+		/****** Don't edit below this line ********/
+		if(typeof person1 !== 'undefined'){
+
+			var p = $('<div />').addClass('person');
+
+			if('name' in person1)
+				p.append('<h3>' + person1['name'] + '</h3>');
+
+			if('age' in person1)
+				p.append('<p>Age: ' + person1['age'] + '</p>');
+
+			if('location' in person1)
+				p.append('<p>' + person1['location'] + '</p>');
+
+			if('male' in person1)
+				p.append('<img src="http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/happiness_male.svg">');
+
+			if('female' in person1)
+				p.append('<img src="http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/happiness_female.svg">');
+
+			p.appendTo('#container');
+		}
+
+		if(typeof person2 !== 'undefined'){
+
+			var p = $('<div />').addClass('person');
+
+			if('name' in person2)
+				p.append('<h3>' + person2['name'] + '</h3>');
+
+			if('age' in person2)
+				p.append('<p>Age: ' + person2['age'] + '</p>');
+
+			if('location' in person2)
+				p.append('<p>' + person2['location'] + '</p>');
+
+			if('male' in person2)
+				p.append('<img src="http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/happiness_male.svg">');
+
+			if('female' in person2)
+				p.append('<img src="http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/happiness_female.svg">');
+
+			p.appendTo('#container');
+		}
+
+		if(typeof person3 !== 'undefined'){
+
+			var p = $('<div />').addClass('person');
+
+			if('name' in person3)
+				p.append('<h3>' + person3['name'] + '</h3>');
+
+			if('age' in person3)
+				p.append('<p>Age: ' + person3['age'] + '</p>');
+
+			if('location' in person3)
+				p.append('<p>' + person3['location'] + '</p>');
+
+			if('male' in person3)
+				p.append('<img src="http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/happiness_male.svg">');
+
+			if('female' in person3)
+				p.append('<img src="http://media.journalism.berkeley.edu/projects/2013/20130813_noun_face/happiness_female.svg">');
+
+			p.appendTo('#container');
+		}
+	});
+	</script>
+	<style type="text/css">
+	.person{
+		text-align:center;
+		font-family: Helvetica, Arial, sans-serif;
+		display:inline-block;
+		float:left;
+		width:125px;
+	}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+</body>
+</html>
