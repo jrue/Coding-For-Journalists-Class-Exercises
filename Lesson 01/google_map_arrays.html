@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Array Tutorial</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+
+      /*  
+       *  Arrays Example File
+       *
+       *  Instruction: Create a 2D array called "places" with the data for each marker on the map.
+       *  Each array inside the places should have the latitude and longitude for that place.
+       *
+       *  Use these latitude and longitude coordinates:
+       *
+       *  40.452107, 93.742118
+       *  52.479748, 62.185657
+       *  19.646162, 37.295270
+       *  55.832915, 37.618360
+       *  50.844080, -0.172152
+       *  -18.529292,-70.249907
+       *  51.848557, -0.554484
+       */
+
+
+
+
+
+
+      /******** Do not edit below this line ***********/
+
+
+      //declare initial variables
+      var startingPos = new google.maps.LatLng(20, -10);
+      var iterator    = 0;
+      var markers     = [];
+      var data        = [];
+      var map;
+
+      //check if places variable is defined properly by student.
+      if(typeof places !== 'undefined'){
+
+        //check if places variable is an array... and that it has another array inside of it
+        if(places.constructor.toString().match(/array/i) !== null && places[0].constructor.toString().match(/array/i) !== null){
+
+          //conver lat and long to google coordinates
+          for(var i=0; i<places.length; ++i){
+            data.push(new google.maps.LatLng(places[i][0], places[i][1]));
+          }
+        } 
+      }
+
+      //start things off once page is fully loaded
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+      //function that kicks things off
+      function initialize() {
+
+        //setup the initial map (turn off scrollwheel because it's annoying)
+        var mapOptions = {
+          zoom        : 1,
+          scrollwheel : false,
+          mapTypeId   : google.maps.MapTypeId.SATELLITE,
+          center      : startingPos
+        };
+
+        //use the new Google maps
+        google.maps.visualRefresh = true;
+
+        //make the map with the above options
+        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+        //start dropping markers
+        if(data.length > 0)
+          drop();
+      }
+
+      function drop() {
+        //for each marker, add it after a short delay to create a cascade effect
+        for (var i = 0; i < data.length; i++) {
+          setTimeout(function() { addMarker(); }, i * 300);
+        }
+      }
+
+      function addMarker() {
+
+        //create a new marker
+        markers.push(new google.maps.Marker({
+          position  : data[iterator],
+          map       : map,
+          draggable : false,
+          animation : google.maps.Animation.DROP
+        }));
+
+        //when you click a marker on the map, center it
+        google.maps.event.addListener(markers[iterator], 'click', function() {
+          map.panTo(this.getPosition());
+        });
+
+        //create an li element for the listing on right, and add the text of the place
+        var li = jQuery('<li />').text(places[iterator][0] + ', ' + places[iterator][1]);
+
+        //assign the marker data to this li element for use when you hover or click it
+        li.data('marker', markers[iterator]);
+
+        //make the marker bounce when you mouse over the li element
+        li.on('mouseover', function(e){
+          jQuery(this).data('marker').setAnimation(google.maps.Animation.BOUNCE);
+        });
+
+        //stop the marker from bouncing when you move the mouse off the li element
+        li.on('mouseout', function(e){
+          jQuery(this).data('marker').setAnimation(null);
+        });
+
+        //when you click on an li element 
+        li.on('click', function(e){
+
+          //change the background color to signal you've clicked it
+          jQuery('#locations_list li').removeClass('selected');
+          jQuery(this).addClass('selected');
+
+          //move to this marker and zoom in
+          map.panTo(jQuery(this).data('marker').getPosition());
+          setTimeout(function(){ map.setZoom(17); }, 500);
+        });
+        
+        //attach the li element
+        jQuery('#locations_list').append(li);
+
+        //if this is the last li element, add a reset map button
+        if(data.length == iterator + 1){
+
+          jQuery('<li />').text('Reset Map').css({
+            'text-align'       : 'center',
+            'background-image' : 'none'
+          }).appendTo('#locations_list')
+          .on('click', function(e){
+            map.setZoom(1);
+            map.panTo(startingPos);
+            jQuery('#locations_list li').removeClass('selected');
+          })
+
+        }
+
+        iterator++;
+      }
+      
+
+    </script>
+    <style type="text/css">
+    #map-canvas{
+      width           : 60%;
+      height          : 400px;
+      border          : 1px solid black;
+      float           : left;
+    }
+    #locations{
+      float            : left;
+      height           : 400px;
+      width            : 30%;
+      border-top       : 1px solid black;
+      border-right     : 1px solid black;
+      border-bottom    : 1px solid black;
+      overflow-y       : scroll;
+      overflow-x       : hidden;
+    }
+    #locations ul{
+      border           : none;
+      padding          : 0;
+      margin           : 0;
+      display          : block;
+      width            : 100%;
+    }
+    #locations li{
+      display          : block;
+      padding          : 10px 10px 10px 30px;
+      font             : normal 10px/1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      border-bottom    : 1px solid #ccc;
+      list-style       : none;
+      background       : #dfdfdf url('http://chart.googleapis.com/chart?chst=d_simple_text_icon_left&chld=|14|000|glyphish_map-marker|16|000|FFF') no-repeat 5px center;
+    }
+    #locations li:hover{
+      cursor           : pointer;
+      background-color : #efefef;
+    }
+
+    li.selected{
+      background-color : #c9c9c9 !important;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+    <div id="locations">
+      <ul id="locations_list">
+      </ul>
+    </div>
+  </body>
+</html>

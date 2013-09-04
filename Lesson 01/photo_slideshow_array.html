@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo slideshow using an array</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20130409/jquery.cycle2.min.js"></script>
+	<script type="text/javascript">
+
+	/*
+	 * 
+	 *   Instructions: Create a variable called "photos" which is an array of strings.
+	 *   Each string is a url to a photograph on the web somewhere.
+	 *
+	 */
+
+
+
+
+
+
+
+
+	/***** Don't edit below this line *****/
+
+	jQuery(document).ready(function($) {
+		
+		if(typeof photos !== 'undefined'){
+			if(photos.constructor.toString().match(/array/i) !== null){
+				for(var i=0; i < photos.length; ++i){
+					$('<img />')
+						.attr('src', photos[i])
+						.attr('width', '100%')
+						.attr('height', 'auto')
+						.appendTo('#slideshow');
+				}
+				$('#slideshow').cycle({
+					'auto-height' :'calc',
+					'fx'          : 'scrollHorz',
+					'pager'       : $('.cycle-pager')
+				});
+			} else {
+				$('<p />').text("Variable photos is not an array").appendTo('#slideshow');
+			}
+		} else {
+			$('<p />').text("Could not find variable photos").appendTo('#slideshow');
+		}
+
+	});
+	</script>
+	<style type="text/css">
+	#slideshow{
+		max-width: 600px;
+		width:100%;
+		max-height: 400px;
+		height:100%;
+		margin:0 auto;
+		position: relative;
+	}
+	.cycle-pager{
+		position: absolute;
+		z-index:9000;
+		bottom:5px;
+		width:100%;
+		text-align:center;
+		font-size:2em;
+		cursor:pointer;
+		color:#999;
+	}
+	.cycle-pager span{
+		padding:0 3px;
+	}
+	.cycle-pager span:hover{
+		cursor:pointer;
+		color:black;
+	}
+	.cycle-pager-active{
+		color:#fff;
+	}
+	</style>
+</head>
+<body>
+	<div id="slideshow">
+		<div class="cycle-pager"></div>
+	</div>
+</body>
+</html>

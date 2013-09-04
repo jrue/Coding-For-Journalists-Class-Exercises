@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating people with attributes using objects</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="js/people.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		/*
+		 *
+		 * Create a variable (any name) and instanciate a new Person object.
+		 * Assign it properties of gender (male or female), age, occupation, and a short bio.
+		 * When done, call method "draw".
+		 *
+		 */
+
+
+		var joe        = new Person();
+		joe.gender     = "male";
+		joe.fullName   = "Joe";
+		joe.age        = 42;
+		joe.occupation = "Journalist";
+		joe.bio        = "Joe comes from a small down in Ohio. He always dreamed of becoming something more. Those dreams were shattered when he decided on journalism.";
+		joe.draw();
+		
+		var suzy = new Person();
+		suzy.gender = "female";
+		suzy.fullName = "Suzanne Smith";
+		suzy.draw();
+
+	});
+	</script>
+	<style type="text/css">
+	#people{
+		display:table;
+	}
+	.person{
+		display:table-cell;
+		width:150px;
+		border:10px solid white;
+		background:#ddd;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding:15px;
+		margin:5px;
+		font:400 14px/1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		overflow:hidden;
+		vertical-align: top;
+	}
+	.person img{
+		display:block;
+		margin:0 auto;
+
+	}
+	.person h2{
+		margin:0 0 10px 0;
+	}
+	</style>
+</head>
+<body>
+<div id="people">
+	
+</div>
+</body>
+</html>
