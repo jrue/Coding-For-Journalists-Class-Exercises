@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parsing JSON example</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		
+		/**
+		 *  For instructions, look at the code block below, then see instructions below.
+		 *
+		 */
+	
+		var data = {
+			"title"       : "Uploads from koci hernandez",
+			"link"        : "http://www.flickr.com/photos/koci/",
+			"description" : "",
+			"modified"    : "2013-09-04T14:54:10Z",
+			"generator"   : "http://www.flickr.com/",
+			"items"       : [
+			   {
+					"title"       : "Nothing\'s beautiful from every point of view. Horace #tinycollective",
+					"link"        : "http://www.flickr.com/photos/koci/9673670726/",
+					"media"       : {"m":"http://farm6.staticflickr.com/5334/9673670726_a4e98c9b42_m.jpg"},
+					"date_taken"  : "2013-09-04T07:54:10-08:00",
+					"description" : "Nothing\'s beautiful from every point of view. Horace",
+					"published"   : "2013-09-04T14:54:10Z",
+					"author"      : "nobody@flickr.com (koci hernandez)",
+					"author_id"   : "44908314@N00",
+					"tags"        : "square squareformat iphoneography instagramapp uploaded:by=instagram"
+			   },
+			   {
+					"title"       : "“A day is not always bright, and Nights are not always dark. All that matters is what\'s inside, because day and night are a reflection of you.” ― Avantika #tinycollective",
+					"link"        : "http://www.flickr.com/photos/koci/9655619114/",
+					"media"       : {"m":"http://farm8.staticflickr.com/7294/9655619114_1be68697bf_m.jpg"},
+					"date_taken"  : "2013-09-02T06:55:03-08:00",
+					"description" : "A day is not always bright, and Nights are not always dark. All that matters is what\'s inside, because day and night are a reflection of you. ― Avantika",
+					"published"   : "2013-09-02T13:55:03Z",
+					"author"      : "nobody@flickr.com (koci hernandez)",
+					"author_id"   : "44908314@N00",
+					"tags"        : "square squareformat iphoneography instagramapp uploaded:by=instagram"
+			   },
+			   {
+					"title"       : "“The outer world is a reflection of our inner selves.” ― Bryant McGill #tinycollective",
+					"link"        : "http://www.flickr.com/photos/koci/9647033210/",
+					"media"       : {"m":"http://farm8.staticflickr.com/7335/9647033210_f5042b19c2_m.jpg"},
+					"date_taken"  : "2013-09-01T08:32:06-08:00",
+					"description" : "The outer world is a reflection of our inner selves. ― Bryant McGill",
+					"published"   : "2013-09-01T15:32:06Z",
+					"author"      : "nobody@flickr.com (koci hernandez)",
+					"author_id"   : "44908314@N00",
+					"tags"        : "square squareformat iphoneography instagramapp uploaded:by=instagram"
+			   },
+			   {
+					"title"       : "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth. Marcus Aurelius",
+					"link"        : "http://www.flickr.com/photos/koci/9593019002/",
+					"media"       : {"m":"http://farm3.staticflickr.com/2883/9593019002_c15aa4e061_m.jpg"},
+					"date_taken"  : "2013-08-25T09:56:48-08:00",
+					"description" : "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth. Marcus Aurelius",
+					"published"   : "2013-08-25T16:56:48Z",
+					"author"      : "nobody@flickr.com (koci hernandez)",
+					"author_id"   : "44908314@N00",
+					"tags"        : "square squareformat iphoneography instagramapp uploaded:by=instagram"
+			   },
+			   {
+					"title"       : "“I smiled back and I thought how incredible that was, that they would find the time to smile. There was goodness in the world still, even if you couldn’t always see it.” ― Jenny Valentine",
+					"link"        : "http://www.flickr.com/photos/koci/9578153914/",
+					"media"       : {"m":"http://farm6.staticflickr.com/5520/9578153914_96b7540b58_m.jpg"},
+					"date_taken"  : "2013-08-23T08:24:14-08:00",
+					"description" : "I smiled back and I thought how incredible that was, that they would find the time to smile. There was goodness in the world still, even if you couldn’t always see it. ― Jenny Valentine",
+					"published"   : "2013-08-23T15:24:14Z",
+					"author"      : "nobody@flickr.com (koci hernandez)",
+					"author_id"   : "44908314@N00",
+					"tags"        : "square squareformat iphoneography instagramapp uploaded:by=instagram"
+			   }
+			]
+		};
+		
+		/*
+		 * Step 1: Create a variable called "title". Store a string which contains an opening and closing h1 tag.
+		 * Example of h1 tags:
+		 *
+		 * <h1></h1>
+		 *
+		 * Next, between the h2 tags, concatenate the title of this feed.
+		 * 
+		 */
+		
+
+		
+		
+		/*
+		 * Step 2: Create a variable called "photoTitle". Store a string which has an opening and closing p tag.
+		 * Example of p tags:
+		 *
+		 * <p></p>
+		 *
+		 * Next, between the p tags, concatenate the description of the first photo. Hint: it's in the items array.
+		 */
+		
+		
+		
+		/*
+		 *  Step 3: Create a variable called "photoTag" and set it up to store a string of an image tag. Hint: you'll
+		 *  need to use single quotes.
+		 *  Below is an example image tag:
+		 * 
+		 *  <img src="">  
+		 *
+		 *  Next, concatenate the URL to the first photo inside the source, which is stored in the media property of items.
+		 */
+		
+		
+		//Last step, inside the parenthesis of the html command, concatenate all of the previous variables:
+		$('#container').html();
+		
+		
+		//Once it works, try changing the index of the arrays
+		
+	});
+	</script>
+</head>
+<body>
+	<div id="container" style="height:500px;"></div>
+</body>
+</html>
