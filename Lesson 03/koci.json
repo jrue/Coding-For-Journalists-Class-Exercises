@@ -1,0 +1,406 @@
+var data={
+    "user"           : "koci",
+    "numberofphotos" : 100,
+    "photos"         : [
+
+    {
+        "title": "What we achieve inwardly will change outer reality. Plutarch #tinycollective",
+        "url"  : "http://farm8.staticflickr.com/7450/9735383785_2ccc30ed64_m.jpg"
+    }, 
+    {
+        "title": "Nothing's beautiful from every point of view. Horace #tinycollective",
+        "url"  : "http://farm6.staticflickr.com/5334/9673670726_a4e98c9b42_m.jpg"
+    }, 
+    {
+        "title": "\"A day is not always bright, and Nights are not always dark. All that matters is what's inside, because day and night are a reflection of you.\" ― Avantika #tinycollective",
+        "url"  : "http://farm8.staticflickr.com/7294/9655619114_1be68697bf_m.jpg"
+    }, 
+    {
+        "title": "\"The outer world is a reflection of our inner selves.\" ― Bryant McGill #tinycollective",
+        "url"  : "http://farm8.staticflickr.com/7335/9647033210_f5042b19c2_m.jpg"
+    }, 
+    {
+        "title": "Curiosity is lying in wait for every secret. Ralph Waldo Emerson #tinycollective",
+        "url"  : "http://farm8.staticflickr.com/7438/9620502871_6125777324_m.jpg"
+    }, 
+    {
+        "title": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth. Marcus Aurelius",
+        "url"  : "http://farm3.staticflickr.com/2883/9593019002_c15aa4e061_m.jpg"
+    }, 
+    {
+        "title": "\"I smiled back and I thought how incredible that was, that they would find the time to smile. There was goodness in the world still, even if you couldn’t always see it.\" ― Jenny Valentine, Broken ----------------------------NEW kocistudi",
+        "url"  : "http://farm6.staticflickr.com/5520/9578153914_96b7540b58_m.jpg"
+    }, 
+    {
+        "title": "Adopt the pace of nature: her secret is patience. Ralph Waldo Emerson #tinycollective #mextures #vscocam #snappycam",
+        "url"  : "http://farm6.staticflickr.com/5467/9564354000_d3b803e2f9_m.jpg"
+    }, 
+    {
+        "title": "\"What use is care? What good is watching for that matter? People are forever watching things. They should be seeing. I see the things I look at. I am a see-er.\" ― Patrick Rothfuss, The Wise Man's Fear #tinycollectivenyc #tinycollective #grandcentralstati",
+        "url"  : "http://farm8.staticflickr.com/7453/9561185720_f731e4b78b_m.jpg"
+    }, 
+    {
+        "title": "\"Reality is that which, when you stop believing in it, doesn't go away.\" ― Philip K. Dick, I Hope I Shall Arrive Soon #venicebeach #la #losangeles ##mextures app",
+        "url"  : "http://farm4.staticflickr.com/3799/9511665176_6ee3cd0cfc_m.jpg"
+    }, 
+    {
+        "title": "#NYC // color series 07 // Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice. Wayne Dyer #newyork #tinycollective #tinycollectivenyc #vscocam",
+        "url"  : "http://farm8.staticflickr.com/7405/9481161670_ee6ca60a37_m.jpg"
+    }, 
+    {
+        "title": "#nyc//color series 06// \"Knowing it and seeing it are two different things.\" ― Suzanne Collins, #nyc #newyork #tinycollective #tinycollectivenyc",
+        "url"  : "http://farm4.staticflickr.com/3801/9452476408_82494e6d70_m.jpg"
+    }, 
+    {
+        "title": "NYC // Color series 04 // \"Life is really simple, but we insist on making it complicated.\" ― Confucius #nyc #newyork #tinycollectivenyc #tinycollective",
+        "url"  : "http://farm3.staticflickr.com/2842/9445168737_480e0c5d67_m.jpg"
+    }, 
+    {
+        "title": "\"Sometimes the slightest things change the directions of our lives, the merest breath of a circumstance, a random moment that connects like a meteorite striking the earth. Lives have swiveled and changed direction on the strength of a chance remark.\" ― B",
+        "url"  : "http://farm6.staticflickr.com/5511/9434513469_0cf30ca6ec_m.jpg"
+    }, 
+    {
+        "title": "NYC color series 03 // \"My direction? Anywhere. Because one is always nearer by not keeping still.\" ― Sebastian Faulks #nyc #newyorkcity #tinycollectivenyc #tinycollective",
+        "url"  : "http://farm4.staticflickr.com/3700/9429696746_843884197a_m.jpg"
+    }, 
+    {
+        "title": "NYC color series 02 // #tinycollectivenyc #tinycollective #newyorkcity #nyc It's not what you look at that matters, it's what you see. Henry David Thoreau",
+        "url"  : "http://farm6.staticflickr.com/5477/9426235496_37580fe1b9_m.jpg"
+    }, 
+    {
+        "title": "NYC // Color Series // 01 // A photograph is a secret about a secret. The more it tells you the less you know. Diane Arbus ##tinycollectivenyc #tinycollective #nyc #newyorkcity",
+        "url"  : "http://farm8.staticflickr.com/7408/9421049343_d25aa6efec_m.jpg"
+    }, 
+    {
+        "title": "A circle is the reflection of eternity. It has no beginning and it has no end - and if you put several circles over each other, then you get a spiral. Maynard James Keenan #nyc #newyorkcity #tinycollective #tinycollectivenyc",
+        "url"  : "http://farm6.staticflickr.com/5448/9412957029_9cd20febf2_m.jpg"
+    }, 
+    {
+        "title": "\"When he shall die, Take him and cut him out in little stars, And he will make the face of heaven so fine That all the world will be in love with night And pay no worship to the garish sun.\" ― William Shakespeare, #newyorkcity #nyc #tinycollective #tinyc",
+        "url"  : "http://farm4.staticflickr.com/3771/9411067785_e1764d05fe_m.jpg"
+    }, 
+    {
+        "title": "\"Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision.\" ― Salvador Dalí. #nyc #subway #newyorkcity #tinycollective",
+        "url"  : "http://farm4.staticflickr.com/3779/9385151505_be9ab878ab_m.jpg"
+    }, 
+    {
+        "title": "My publisher @emotiondaily is offering a special discount on my new monograph, Downtown, it's a special offer to my followers. Go to the site outofthephone.com and enter this promo code KOCI1 to receive a discount. Thanks for your support! Get one befor",
+        "url"  : "http://farm4.staticflickr.com/3748/9368826288_e277f36a54_m.jpg"
+    }, 
+    {
+        "title": "Friends, I'd LOVE your help. I have an assignment for you if you choose to accept and a prize! I'm working on a project to visualize music through photographs as part of a larger documentary I'm producing. The documentary is called The Cannon and the Flow",
+        "url"  : "http://farm4.staticflickr.com/3767/9362413170_345515111c_m.jpg"
+    }, 
+    {
+        "title": "\"Why is it when you want the ground to swallow you whole, it decides to stop trying?\" ― Sherrilyn Kenyon, No Mercy",
+        "url"  : "http://farm4.staticflickr.com/3716/9322720320_1a5f2ede59_m.jpg"
+    }, 
+    {
+        "title": "\"The aspects of things that are most important for us are hidden because of their simplicity and ordinariness, everydayness. One is unable to notice something—because it is always before one’s eyes.\" -Wittgenstein #eyeEm #capa filter",
+        "url"  : "http://farm3.staticflickr.com/2805/9312998063_28db6c3d5a_m.jpg"
+    }, 
+    {
+        "title": "\"People parted, years passed, they met again- and the meeting proved no reunion, offered no warm memories, only the acid knowledge that time had passed and things weren't as bright or attractive as they had been.\" ― Jacqueline Susann, Valley of the Dolls",
+        "url"  : "http://farm6.staticflickr.com/5508/9294399810_7ac987043d_m.jpg"
+    }, 
+    {
+        "title": "Since I'm inarticulate, I express myself with images. - Helen Levitt",
+        "url"  : "http://farm6.staticflickr.com/5475/9253181100_7ce2214da5_m.jpg"
+    }, 
+    {
+        "title": "\"No matter how much time passes, no matter what takes place in the interim, there are some things we can never assign to oblivion, memories we can never rub away.\" ― Haruki Murakami, Kafka on the Shore",
+        "url"  : "http://farm4.staticflickr.com/3703/9196181183_f489a12810_m.jpg"
+    }, 
+    {
+        "title": "Everyone and everything that shows up in our life is a reflection of something that is happening inside of us. Alan Cohen. #reflection #oakland",
+        "url"  : "http://farm4.staticflickr.com/3701/9175874899_fb8eb8482f_m.jpg"
+    }, 
+    {
+        "title": "Check out my Google Glass feed @koci_glass, where I'll be sharing images captured with Glass, like this one. @koci_glass #throughglass #streetphotography #sanfrancisco Thanks.",
+        "url"  : "http://farm4.staticflickr.com/3679/9134081163_c846d3a8db_m.jpg"
+    }, 
+    {
+        "title": "Seriously check this out! outofthephone.com - I am thrilled to be part of the announcement by @emotiondaily of the birth of OUT OF THE PHONE, a Publishing House dedicated to Mobile Photography. They focus on the uniqueness of the photographic eye, on th",
+        "url"  : "http://farm3.staticflickr.com/2839/9095745565_8cd3bf0916_m.jpg"
+    }, 
+    {
+        "title": "\"There is no future without a past, because what is to be cannot be imagined except as a form of repetition.\" ― Siri Hustvedt. #24hrws13 #losangeles",
+        "url"  : "http://farm6.staticflickr.com/5463/9086598142_ddf40b9630_m.jpg"
+    }, 
+    {
+        "title": "My eye is almost a camera!!! As a Google Glass Explorer I'll be experimenting with photography #throughglass on a separate account @koci_glass. This is gonna be fun! @projectglass",
+        "url"  : "http://farm8.staticflickr.com/7296/9062699265_38ae429c79_m.jpg"
+    }, 
+    {
+        "title": "\"Life is a series of natural and spontaneous changes. Don't resist them; that only creates sorrow. Let reality be reality. Let things flow naturally forward in whatever way they like.\" ― Lao Tzu #24hrws13 #la #losangeles #mextures app // you can check o",
+        "url"  : "http://farm3.staticflickr.com/2884/9057520811_8569f6cd6c_m.jpg"
+    }, 
+    {
+        "title": "\"What is admirable about the fantastic is that there is no longer anything fantastic: there is only the real.\" ― André Breton #24hrws13 #losangeles @punkrawkpurl",
+        "url"  : "http://farm6.staticflickr.com/5526/9051101202_246ae31846_m.jpg"
+    }, 
+    {
+        "title": "A mind that is stretched by a new experience can never go back to its old dimensions. Oliver Wendell Holmes, Jr. #24hrws13 #losangeles #lax",
+        "url"  : "http://farm8.staticflickr.com/7297/9040845615_1ae1346a59_m.jpg"
+    }, 
+    {
+        "title": "\"Here we are, trapped in the amber of the moment. There is no why.\" ― Kurt Vonnegut #24hrws13 #losangeles",
+        "url"  : "http://farm3.staticflickr.com/2885/9034890408_7c8f6e2772_m.jpg"
+    }, 
+    {
+        "title": "\"The entrance to the Underworld is in Los Angeles.\" ― Rick Riordan, The Lightning Thief #24hrws13 @kpcc @aliveinnyc @whittiersam This weekend it was an amazing \"underworld\" of passionate and talented street photographers. I had one of the most amazing t",
+        "url"  : "http://farm6.staticflickr.com/5446/9024399073_d8499f18bc_m.jpg"
+    }, 
+    {
+        "title": "Hey Los Angeles! Headed down soon! Honored to be a part of the @24hourproject's conference. Click the link in my profile to learn more and register. Some spots are still available. Questions, @whittiersam and @aliveinnyc are the go to guys!",
+        "url"  : "http://farm4.staticflickr.com/3765/8973967311_ce31c8b599_m.jpg"
+    }, 
+    {
+        "title": "Join me THIS weekend in LA for whats going to be a great conference. I promise to teach you everything I know :) http://www.the24hourproject.net/conference // you can also click the link in my profile",
+        "url"  : "http://farm9.staticflickr.com/8125/8965273104_6e2e9e61ba_m.jpg"
+    }, 
+    {
+        "title": "Line is a rich metaphor for the artist. It denotes not only boundary, edge or contour, but is an agent for location, energy, and growth. It is literally movement and change - life itself. (Lance Esplund)",
+        "url"  : "http://farm4.staticflickr.com/3831/8950057204_7991130d23_m.jpg"
+    }, 
+    {
+        "title": "\"His way had therefore come full circle, or rather had taken the form of an ellipse or a spiral, following as ever no straight unbroken line, for the rectilinear belongs only to Geometry and not to Nature and Life.\" ― Hermann Hesse",
+        "url"  : "http://farm4.staticflickr.com/3683/8914540255_6db0d8cee7_m.jpg"
+    }, 
+    {
+        "title": "\"It's not what we do once in a while that shapes our lives. It's what we do consistently.\" ― Anthony Robbins #mextures app",
+        "url"  : "http://farm8.staticflickr.com/7336/8902511226_210d84be6e_m.jpg"
+    }, 
+    {
+        "title": "\"Places draw us to them for reasons beyond the feelings derived from the five senses...some deeper recognition is at work, felt throough an unextinguishable animal sensibility.\" ― Peter & Alison Smithson #mextures app",
+        "url"  : "http://farm8.staticflickr.com/7310/8892938472_b00033df7c_m.jpg"
+    }, 
+    {
+        "title": "A wonderful fact to reflect upon, that every human creature is constituted to be that profound secret and mystery to every other. Charles Dickens",
+        "url"  : "http://farm8.staticflickr.com/7356/8867732737_95f0411c19_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Day 8 // final day of review",
+        "url"  : "http://farm9.staticflickr.com/8280/8829006270_8ee1398c61_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Day 8 // final day of review",
+        "url"  : "http://farm8.staticflickr.com/7457/8828991020_28f3cb9a46_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Day 8 // final day of review",
+        "url"  : "http://farm6.staticflickr.com/5455/8828983860_bcb848db63_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 6 & 7",
+        "url"  : "http://farm8.staticflickr.com/7331/8806084287_4e59e32479_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 6 & 7",
+        "url"  : "http://farm8.staticflickr.com/7292/8816668312_d22fbb2bdb_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 6 & 7",
+        "url"  : "http://farm8.staticflickr.com/7313/8806081181_9167c242bb_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 6 & 7",
+        "url"  : "http://farm8.staticflickr.com/7290/8816665730_384280edaa_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 6 & 7",
+        "url"  : "http://farm6.staticflickr.com/5454/8806079193_a2c7a20c50_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 6 & 7",
+        "url"  : "http://farm4.staticflickr.com/3781/8816663292_85012eef1b_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 6 & 7",
+        "url"  : "http://farm4.staticflickr.com/3821/8816662124_2ab55495d9_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 5",
+        "url"  : "http://farm8.staticflickr.com/7354/8797754550_eb5669fa85_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 5",
+        "url"  : "http://farm8.staticflickr.com/7333/8787171401_4a8edf7344_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 4",
+        "url"  : "http://farm4.staticflickr.com/3677/8774141005_ee227e701c_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 4",
+        "url"  : "http://farm3.staticflickr.com/2891/8774139735_170ebd05dd_m.jpg"
+    }, 
+    {
+        "title": "San Francisco, Ca.",
+        "url"  : "http://farm9.staticflickr.com/8398/8760075178_f350397a83_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day3",
+        "url"  : "http://farm3.staticflickr.com/2836/8758168652_7d27f7efb5_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day3",
+        "url"  : "http://farm9.staticflickr.com/8121/8758167682_855de34f87_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day3",
+        "url"  : "http://farm4.staticflickr.com/3665/8757040963_577971a145_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day3",
+        "url"  : "http://farm3.staticflickr.com/2829/8757040255_1fcbb3af38_m.jpg"
+    }, 
+    {
+        "title": "Shot with Nokia920 uploaded to sky drive and post processed in snapseed. Having a little fun testing and reviewing this windows8 phone. #wpphoto #wearejuxt @windowsphone",
+        "url"  : "http://farm9.staticflickr.com/8253/8756995021_860bd579d9_m.jpg"
+    }, 
+    {
+        "title": "Reflection//Oakland airport// Taken with Nokia920 Windows phone that I'm reviewing. Liking it so far! More to come from #wearejuxt blog #wpphoto #wearejuxt @windowsphone",
+        "url"  : "http://farm4.staticflickr.com/3815/8754711076_da0a05a02a_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 2 // NOKIA 920",
+        "url"  : "http://farm3.staticflickr.com/2812/8753556967_4c064425f8_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 2 // NOKIA 920",
+        "url"  : "http://farm4.staticflickr.com/3725/8753555901_62bd44be62_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 2 // NOKIA 920",
+        "url"  : "http://farm9.staticflickr.com/8539/8754678902_27cf66ecfd_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 2 // NOKIA 920",
+        "url"  : "http://farm3.staticflickr.com/2863/8754678608_66148cea56_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 2 // NOKIA 920",
+        "url"  : "http://farm4.staticflickr.com/3810/8754678134_11630a896b_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 2 // NOKIA 920",
+        "url"  : "http://farm8.staticflickr.com/7400/8753554079_094ecce818_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 2 // NOKIA 920",
+        "url"  : "http://farm6.staticflickr.com/5455/8753553719_9be6885385_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge day01 -02",
+        "url"  : "http://farm8.staticflickr.com/7295/8750308367_dfd9c14640_m.jpg"
+    }, 
+    {
+        "title": "Windows Phone Challenge Day 1 -01",
+        "url"  : "http://farm4.staticflickr.com/3814/8750293989_eafae8c8a7_m.jpg"
+    }, 
+    {
+        "title": "Be still with yourself until the object of your attention affirms your presence. Minor White",
+        "url"  : "http://farm8.staticflickr.com/7304/8734517353_789af88b9c_m.jpg"
+    }, 
+    {
+        "title": "\"Friendship is born at that moment when one person says to another: \"What! You too? I thought I was the only one.\" ― C.S. Lewis For @konstruktivist Happy Birthday!",
+        "url"  : "http://farm9.staticflickr.com/8400/8695838665_1f394b4549_m.jpg"
+    }, 
+    {
+        "title": "\"It is by no means an irrational fancy that, in a future existence, we shall look upon what we think our present existence, as a dream.\" ― Edgar Allan Poe",
+        "url"  : "http://farm9.staticflickr.com/8126/8692048225_6a154cf793_m.jpg"
+    }, 
+    {
+        "title": "\"But how will I know it's my destiny?' 'Like love it will possess you... You can't help but know.\" ― Gail Tsukiyama, The Street of a Thousand Blossoms",
+        "url"  : "http://farm9.staticflickr.com/8380/8688556727_5ebbba7b8d_m.jpg"
+    }, 
+    {
+        "title": "\"At every given moment we are absolutely perfect for what is required for our journey.\" ― Steve Maraboli",
+        "url"  : "http://farm9.staticflickr.com/8257/8683857760_bdc4556f7b_m.jpg"
+    }, 
+    {
+        "title": "Geometry is not true, it is advantageous. Henri Poincare",
+        "url"  : "http://farm9.staticflickr.com/8534/8675673712_fc6a7e21d9_m.jpg"
+    }, 
+    {
+        "title": "\"You can't stop the future You can't rewind the past The only way to learn the secret ...is to press play.\" ― Jay Asher, Thirteen Reasons Why",
+        "url"  : "http://farm9.staticflickr.com/8525/8671375475_266318a765_m.jpg"
+    }, 
+    {
+        "title": "\"But once that string gets cut, kid, you can't uncut it. Do you get what I'm saying?\" ― John Green, Paper Towns",
+        "url"  : "http://farm9.staticflickr.com/8404/8667978545_7d965f4fca_m.jpg"
+    }, 
+    {
+        "title": "\"Sometimes, you have to look back in order to understand the things that lie ahead.\" ― Yvonne Woon, Dead Beautiful",
+        "url"  : "http://farm9.staticflickr.com/8263/8664827543_1592728c89_m.jpg"
+    }, 
+    {
+        "title": "Seriously go WATCH THESE VIDEOS! A new one every week on mobile photographers: go to Vimeo and search for tiny collective! Supporting last week's announcement of @impossibleproject presenting #aroundtheworldin9days with @tinycollective, we continue our",
+        "url"  : "http://farm9.staticflickr.com/8263/8661534702_56601fc02b_m.jpg"
+    }, 
+    {
+        "title": "It takes a lot of courage to release the familiar and seemingly secure, to embrace the new. But there is no real security in what is no longer meaningful. There is more security in the adventurous and exciting, for in movement there is life, and in change",
+        "url"  : "http://farm9.staticflickr.com/8384/8644819879_9965858f73_m.jpg"
+    }, 
+    {
+        "title": "\"You can spend minutes, hours, days, weeks, or even months over-analyzing a situation; trying to put the pieces together, justifying what could've, would've happened... or you can just leave the pieces on the floor and move the fuck on.\" ― Tupac Shakur",
+        "url"  : "http://farm9.staticflickr.com/8520/8642187903_a84d757b86_m.jpg"
+    }, 
+    {
+        "title": "\"Oh, never mind the fashion. When one has a style of one's own, it is always 20 times better.\" ― Margaret Oliphant #tinycollective",
+        "url"  : "http://farm9.staticflickr.com/8531/8639456605_0722e1b1b9_m.jpg"
+    }, 
+    {
+        "title": "THE IMPOSSIBLE PROJECT presents: \"AROUND THE WORLD IN 9 DAYS WITH TINY COLLECTIVE: A TOURING INSTANT LAB MOBILE PHOTOGRAPHY EXHIBITION\" June 20-28, 2013 in New York City / Paris / Los Angeles / Istanbul / Toronto / San Francisco / Dubrovnik / Atlanta /",
+        "url"  : "http://farm9.staticflickr.com/8125/8637065653_5459e12240_m.jpg"
+    }, 
+    {
+        "title": "\"If one is lucky, a solitary fantasy can totally transform a million realities.\" ― Maya Angelou",
+        "url"  : "http://farm9.staticflickr.com/8535/8634898620_7d70a38983_m.jpg"
+    }, 
+    {
+        "title": "\"Stories are light. Light is precious in a world so dark. Begin at the beginning. Tell Gregory a story. Make some light.\" ― Kate DiCamillo, The Tale of Despereaux",
+        "url"  : "http://farm9.staticflickr.com/8244/8631995682_83e25bcec2_m.jpg"
+    }, 
+    {
+        "title": "Soon silence will have passed into legend. Man has turned his back on silence. Day after day he invents machines and devices that increase noise and distract humanity from the essence of life, contemplation, meditation. -Jean Arp",
+        "url"  : "http://farm9.staticflickr.com/8106/8628501920_3966249b7f_m.jpg"
+    }, 
+    {
+        "title": "\"There are no wrong turnings. Only paths we had not known we were meant to walk.\" ― Guy Gavriel Kay",
+        "url"  : "http://farm9.staticflickr.com/8100/8623799543_998358661e_m.jpg"
+    }, 
+    {
+        "title": "\"There is another alphabet, whispering from every leaf, singing from every river, shimmering from every sky.\" ― Dejan Stojanovic",
+        "url"  : "http://farm9.staticflickr.com/8402/8622366495_905e7c1b6f_m.jpg"
+    }, 
+    {
+        "title": "For time and the world do not stand still. Change is the law of life. And those who look only to the past or the present are certain to miss the future. John F. Kennedy",
+        "url"  : "http://farm9.staticflickr.com/8114/8618526967_c999a3af56_m.jpg"
+    }, 
+    {
+        "title": "\"When the color's taken out of your world, and all you see is black and white, is that what's left? The absence of color, of everything near and dear to you? Or is it the essence of your very being, the truest representation of yourself?\" ― Emily Dana",
+        "url"  : "http://farm9.staticflickr.com/8519/8616763890_eb905ee8b1_m.jpg"
+    }, 
+    {
+        "title": "\"Simplicity is the keynote of all true elegance.\" ― Coco Chanel Thanks for a great Easter Sunday NYC !",
+        "url"  : "http://farm9.staticflickr.com/8103/8613973632_c9ee0cd162_m.jpg"
+    }, 
+    {
+        "title": "\"Class is an aura of confidence that is being sure without being cocky. Class has nothing to do with money. Class never runs scared. It is self-discipline and self-knowledge. It's the sure-footedness that comes with having proved you can meet life. \" ― A",
+        "url"  : "http://farm9.staticflickr.com/8537/8610006738_d5e245854a_m.jpg"
+    }, 
+    {
+        "title": "\"I chose the light amidst the lurking darkness. I chose calmness and stillness among a crowd bathing in chaos. I chose happiness over screaming negativity around and I chose to be me over the temptation of being like somebody else.\" ― Elizabeth E. Castil",
+        "url"  : "http://farm9.staticflickr.com/8126/8606333676_7f310cab7f_m.jpg"
+    }, 
+    {
+        "title": "Some of us think holding on makes us strong; but sometimes it is letting go. Hermann Hesse",
+        "url"  : "http://farm9.staticflickr.com/8533/8602102025_b718a1aa05_m.jpg"
+    }, 
+    {
+        "title": "Electric communication will never be a substitute for the face of someone who with their soul encourages another person to be brave and true. Charles Dickens",
+        "url"  : "http://farm9.staticflickr.com/8378/8601741694_f632ea49f5_m.jpg"
+    }]
+}
