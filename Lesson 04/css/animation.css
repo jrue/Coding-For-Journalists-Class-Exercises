@@ -1,0 +1,32 @@
+.panel{
+	-webkit-animation: fadeIn 0.5s 0s 1 linear; /* Webkit, Chrome, Safari 5+ */
+	   -moz-animation: fadeIn 0.5s 0s 1 linear; /* Firefox 5-15 */
+	    -ms-animation: fadeIn 0.5s 0s 1 linear; /* Microsoft none */
+	     -o-animation: fadeIn 0.5s 0s 1 linear; /* Opera 12.00 */
+	        animation: fadeIn 0.5s 0s 1 linear; /* standards */
+}
+
+@-webkit-keyframes fadeIn{ 
+	0%{ -webkit-transform: scale(0.8); -webkit-filter: blur(1px); opacity:0; }
+	100%{ -webkit-transform: scale(1); -webkit-filter: blur(0px); opacity:1; }
+}
+
+@-moz-keyframes fadeIn{ 
+	0%{ -moz-transform: scale(0.8); -moz-filter: blur(1px); opacity:0; }
+	100%{ -moz-transform: scale(1); -moz-filter: blur(0px); opacity:1; }
+}
+
+@-o-keyframes fadeIn{ 
+	0%{ -o-transform: scale(0.8); -o-filter: blur(1px); opacity:0; }
+	100%{ -o-transform: scale(1); -o-filter: blur(0px); opacity:1; }
+}
+
+@-ms-keyframes fadeIn{ 
+	0%{ -ms-transform: scale(0.8); -ms-filter: blur(1px); opacity:0; }
+	100%{ -ms-transform: scale(1); -ms-filter: blur(0px); opacity:1; }
+}
+
+@keyframes fadeIn{ 
+	0%{ transform: scale(0.8); filter: blur(1px); opacity:0; }
+	100%{ transform: scale(1); filter: blur(0px); opacity:1; }
+}
