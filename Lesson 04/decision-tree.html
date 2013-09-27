@@ -23,7 +23,7 @@
 
 
 		//create the first button
-		createNewQuestion("Do you like dogs?", ['yes', 'no', 'maybe'], 'firstquestion');
+		createNewQuestion("Do you like dogs?", ['Yes', 'No', 'Maybe'], 'firstquestion');
 
 
 		function onclick(){
@@ -79,7 +79,8 @@
 					.append('<h3>' + question + '</h3>')
 					.append($('<div />')
 						.data('id', buttonid)
-						.addClass('form-group').append(
+						.addClass('form-group')
+						.append(
 							function(){
 								var string = '';
 								$.each(options, function(inx, objval){
@@ -90,11 +91,18 @@
 						)
 					)
 			).appendTo($('.row').eq(0));
+			
 			onclick();
 		}
 
 	});
 	</script>
+	<style>
+		.panel{
+			padding-left:10px;
+			padding-right:10px;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
