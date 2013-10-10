@@ -1,0 +1,151 @@
+<data>
+  <format>
+    <imagewidth>135</imagewidth>
+    <imageheight>582</imageheight>
+    <padding>0</padding>
+    <labelsize>12</labelsize>
+    <scroll>false</scroll>
+  </format>
+  <markers>
+    <marker>
+      <icon>audio</icon>
+      <kicker>Click for Audio</kicker>
+      <label>Kristina Arakelyan</label>
+      <thumb>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/V2a.jpg</thumb>
+      <media>
+        <photos>
+          <photo>
+            <title>“A lot of times we’re sacrificing our morals, our values, just to get ahead.”&lt;br /&gt;ﾠ&lt;br /&gt;</title>
+            <desc>KRISTINA ARAKELYAN, 17, Midwood High School&lt;br /&gt;Going to Harvard University | Hopes to study philosophy and literature | &lt;a href="http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Kristina_Arakelyan.pdf"&gt; Graduation speech [pdf]&lt;/a&gt;</desc>
+            <credit>Béatrice de Géa for The New York Times</credit>
+            <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/KristinaPop.jpg</url>
+          </photo>
+        </photos>
+        <track>
+          <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Kristina_on_morals.mp3</url>
+          <duration>48.27428571428572</duration>
+        </track>
+      </media>
+    </marker>
+    <marker>
+      <icon>photo</icon>
+      <kicker>Click for More</kicker>
+      <label>Jordano Sanchez</label>
+      <thumb>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/V2b.jpg</thumb>
+      <media>
+        <photos>
+          <photo>
+            <title>“Even though my parents and other relatives are urging me to become&lt;br /&gt;  a lawyer or a doctor, because that’s where the money is, like, if I’m not&lt;br /&gt;  happy, if that’s not something I’m really passionate about, it’s not&lt;br /&gt;  going to benefit me at all”&lt;br /&gt;ﾠ&lt;br /&gt;</title>
+            <desc>JORDANO SANCHEZ, 18, Townsend Harris High School &lt;br /&gt;Going to Yale University | Hopes to develop a breakthrough in pathology  | &lt;a href="http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Jordano_Sanchez.pdf"&gt; Graduation speech [pdf]&lt;/a&gt;</desc>
+            <credit>Béatrice de Géa for The New York Times</credit>
+            <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/JordanoPop.jpg</url>
+          </photo>
+        </photos>
+        <track>
+          <url/>
+          <duration>0</duration>
+        </track>
+      </media>
+    </marker>
+    <marker>
+      <icon>photo</icon>
+      <kicker>Click for More</kicker>
+      <label>Jenae Williams</label>
+      <thumb>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/V2c.jpg</thumb>
+      <media>
+        <photos>
+          <photo>
+            <title>“I’ve been raised in public schools, but some things some teachers have&lt;br /&gt; done, like passing kids because they have to get out, and not actually&lt;br /&gt; helping them, it makes me feel kind of bad”&lt;br /&gt;ﾠ&lt;br /&gt;</title>
+            <desc>JENAE WILLIAMS, 17, Celiea Cruz Bronx High School of Music&lt;br /&gt;Going to Southeastern University | Hopes to become a marriage counselor | &lt;a href="http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Janae_Williams.pdf"&gt; Graduation speech [pdf]&lt;/a&gt;</desc>
+            <credit>Béatrice de Géa for The New York Times</credit>
+            <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/JanaePop.jpg</url>
+          </photo>
+        </photos>
+        <track>
+          <url/>
+          <duration>0</duration>
+        </track>
+      </media>
+    </marker>
+    <marker>
+      <icon>audio</icon>
+      <kicker>Click for Audio</kicker>
+      <label>Adrienne Edwards</label>
+      <thumb>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/V2d.jpg</thumb>
+      <media>
+        <photos>
+          <photo>
+            <title>“I think our generation needs a name.”&lt;br /&gt;ﾠ&lt;br /&gt;</title>
+            <desc>ADRIENNE EDWARDS, 17, Spence School&lt;br /&gt;Going to the University of Pennsylvania | Hopes to become a litigator | &lt;a href="http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Adrienne_Edwards.pdf"&gt; Graduation speech [pdf]&lt;/a&gt;</desc>
+            <credit>Béatrice de Géa for The New York Times</credit>
+            <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/AdriennePop2.jpg</url>
+          </photo>
+        </photos>
+        <track>
+          <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Adr_iGeneration.mp3</url>
+          <duration>32.07836734693878</duration>
+        </track>
+      </media>
+    </marker>
+    <marker>
+      <icon>photo</icon>
+      <kicker>Click for More</kicker>
+      <label>Adam Sealfon</label>
+      <thumb>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/V2e.jpg</thumb>
+      <media>
+        <photos>
+          <photo>
+            <title>“I definitely agree that the curriculum has been watered down a lot,&lt;br /&gt;  for instance, in mathematics; in eastern Europe, they learn what&lt;br /&gt;  we learn [in America] several years earlier.”&lt;br /&gt;ﾠ&lt;br /&gt;</title>
+            <desc>ADAM SEALFON, 18, Stuyvesant High School&lt;br /&gt;Going to Harvard University | Hopes to do theoretical science/math research | &lt;a href="http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Adam_Sealfon.pdf"&gt; Graduation speech [pdf]&lt;/a&gt;</desc>
+            <credit>Béatrice de Géa for The New York Times</credit>
+            <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/AdamPop.jpg</url>
+          </photo>
+        </photos>
+        <track>
+          <url/>
+          <duration>0</duration>
+        </track>
+      </media>
+    </marker>
+    <marker>
+      <icon>audio</icon>
+      <kicker>Click for Audio</kicker>
+      <label>Christian Monsalve</label>
+      <thumb>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/V2f.jpg</thumb>
+      <media>
+        <photos>
+          <photo>
+            <title>“When you find confidence in yourself,&lt;br /&gt;  you find success in every area of life.”&lt;br /&gt;ﾠ&lt;br /&gt;</title>
+            <desc>CHRISTIAN MONSALVE, 18, Regis High School&lt;br /&gt;Going to Fordham University | Hope to work in Latin American economic development | &lt;a href="http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Christian_Monsalve.pdf"&gt; Graduation speech&lt;/a&gt;</desc>
+            <credit>Béatrice de Géa for The New York Times</credit>
+            <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/ChristianPop.jpg</url>
+          </photo>
+        </photos>
+        <track>
+          <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Christian_on_confidence.mp3</url>
+          <duration>46.88979591836735</duration>
+        </track>
+      </media>
+    </marker>
+    <marker>
+      <icon>photo</icon>
+      <kicker>Click for More</kicker>
+      <label>Muhammad Safa</label>
+      <thumb>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/V2g.jpg</thumb>
+      <media>
+        <photos>
+          <photo>
+            <title>“Everybody has the same capacity, the same potential.&lt;br /&gt;  It’s what you make of it.”&lt;br /&gt;ﾠ&lt;br /&gt;</title>
+            <desc>MUHAMMAD SAFA, 17, High School of Telecommunications Arts and Technology&lt;br /&gt;Going to Fordham University | Hopes to become a doctor | &lt;a href="http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/Muhammad_Safa.pdf"&gt; Graduation speech [pdf]&lt;/a&gt;</desc>
+            <credit>Béatrice de Géa for The New York Times</credit>
+            <url>http://graphics8.nytimes.com/packages/flash/nyregion/20090628Valedictorians/MohammadPop2.jpg</url>
+          </photo>
+        </photos>
+        <track>
+          <url/>
+          <duration>0</duration>
+        </track>
+      </media>
+    </marker>
+  </markers>
+</data>
