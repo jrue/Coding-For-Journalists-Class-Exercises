@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Instagram with Map</title>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		jQuery(document).ready(function($){
+
+			/**
+			 *  Create a jQuery ajax call to the Instagram API URI. After retrieving the data from Instagram,
+			 *  create a For Loop, and then call the addMarker function to add a marker to the map.
+			 *
+			 *
+			 *  lat - latitude
+			 *  lng - longitude
+			 *  icon - url of an icon
+			 *  title - title for the photo
+			 *  infoboximage - image when you click on the infobox.
+			 *
+			 *  addMarker(lat, lng, icon, title, infoboximage)
+			 *
+			 */
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			/**
+			 *  Function addMarker, which adds a marker to the map
+			 */
+			function addMarker(lat, lng, icon, title, infoboximage){
+				markers.push(new google.maps.Marker({
+					position : new google.maps.LatLng(lat, lng),
+					map      : map,
+					title    : title.substring(0, 200), //only first 200 characters for title
+					icon     : {
+						url    : icon, 
+						size   : new google.maps.Size(50, 50),
+						anchor : new google.maps.Point(25, 50)
+					}
+				}));
+
+				google.maps.event.addListener(markers[markers.length - 1], 'click', function() {
+					infowindow.setContent('<h2>' + title.substring(0, 30) +'</h2><img src="' + infoboximage + '" style="display:block;margin:5px auto 0;">');
+					infowindow.open(map, this);
+				});
+			}
+			
+			google.maps.visualRefresh = true;
+			var markers = [],infowindow = new google.maps.InfoWindow({content: ''});
+			
+			//load map in div with id map_canvas.
+			var map = new google.maps.Map(document.getElementById('map_canvas'), 
+				{
+					 zoom      : 3,
+					 center    : new google.maps.LatLng(37.363882,-122.044922),
+					 mapTypeId : google.maps.MapTypeId.ROADMAP
+				}
+			);
+			
+			
+
+		});
+	</script>
+</head>
+<body style="height:100%;">
+	<div id="map_canvas" style="min-height:600px; height:100%"></div>
+</body>
+</html>
