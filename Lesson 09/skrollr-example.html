@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head class="no-skrollr">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Your title</title>
+	<style type="text/css" media="screen">
+		#crowds{
+			position:absolute;
+			bottom:-600px;
+		}
+		#crowds img{
+			position:absolute;
+		}
+		
+		#crowdc{
+			left:200px;
+			z-index:10;
+		}
+		
+		#crowdfg{
+			z-index:5;
+		}
+		#crowdfb{
+			z-index:3;
+		}
+		
+		#scrollposition{
+			position:fixed;
+			top:0;
+			left:0;
+			font-size:30px;
+			font-width:bold;
+			z-index:9999;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div id="scrollposition"></div>
+	<div id="skrollr-body">
+		<img src="images/callout.png" width="566" height="170" alt="Callout">
+		<div id="crowds" data-0="bottom:-600px;" data-500="bottom:-100px;">
+			<img id="crowdc" data-300="top:600px;" data-500="top:-200px" src="images/crowd-c.png" width="378" height="869" alt="Crowd C">
+			<img id="crowdfg" src="images/crowd-fg.png" width="920" height="958" alt="Crowd Fg">
+			<img id="crowdbg" src="images/crowd-bg.png" width="940" height="593" alt="Crowd Bg">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="skrollr/skrollr.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	jQuery(document).ready(function($){
+
+		$(window).on('scroll', function(){
+			$('#scrollposition').html($(window).scrollTop());
+		})
+
+	});
+	</script>
+</body>
+
+</html>
