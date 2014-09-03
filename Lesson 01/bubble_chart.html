@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bubble Chart Carbon Bombs</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <style type="text/css">
+    #graphic{
+        height:960px;
+    }
+    </style>
+</head>
+<body>
+
+<div id="graphic"></div>
+
+<script type="text/javascript">
+
+    /*******************  START HERE ********************
+
+
+    Step 1) Create a variable called "data"
+
+    Step 2) Assign an Array of numbers (any random numbers) to the data variable.
+
+    Run this file. Then, change up some of the numbers.
+
+
+    ******************************************************/
+
+
+    var data = [543, 34, 543, 343, 234, 244, 543, 132, 534];
+   
+
+
+
+    var diameter = 500,
+        format = d3.format(",d"),
+        color = d3.scale.category20b();
+
+    var bubble = d3.layout.pack()
+        .sort(null)
+        .size([diameter, diameter])
+        .padding(1.5);
+
+    var svg = d3.select("#graphic")
+        .append("svg")
+        .attr("width", diameter)
+        .attr("height", diameter)
+        .attr("class", "bubble")
+
+    var bubbles = svg.append("g");
+
+    var text = svg.append("g");
+
+    if(typeof data !== "undefined"){
+        data = data.map(function(d){ return { name: Math.round(Math.random() * 100000).toString(), value: d}; })
+        var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
+
+        var circles = bubbles.selectAll("circle")
+            .data(nodes, function(d){return d.name;})
+            .enter()
+            .append("circle")
+            .attr("r", function(d) { return 0; })
+            .style("fill", function(d) { return color(d.value); })
+            .attr("cx", function(d){ return d.x;})
+            .attr("cy", function(d){ return d.y;})
+            .attr("class", "node")
+            .transition()
+            .delay(function(d, i){
+                return i * 300;
+            })
+            .duration(700)
+            .attr("r", function(d){ return d.r; })
+            .each("end", function(d){
+                text.append("text")
+                  .attr("x", d.x)
+                  .attr("y", d.y + 5)
+                  .attr("text-anchor", "middle")
+                  .text(d.value)
+                  .style({fill:"white", "font-family":"Helvetica Neue, Helvetica"});
+            });
+    }
+ 
+</script>
+</body>
+</html>
